@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Search">
+
+
+
+    <EditTextPreference
+        android:defaultValue="@string/Android"
+        android:inputType="text"
+        android:key="@string/Subject"
+        android:selectAllOnFocus="true"
+        android:title="@string/Subject" />
+
+
+    <EditTextPreference
+        android:defaultValue="@string/valueOfMaxValue"
+        android:inputType="number"
+        android:key="@string/MaxValue"
+        android:selectAllOnFocus="true"
+        android:title="@string/MaxValue" />
+
+</PreferenceScreen>
